@@ -121,6 +121,12 @@ a { color: inherit; }
   max-width: 260px;
 }
 
+@media (max-width: 640px) {
+  .masthead .wrap { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .masthead-nav { flex-wrap: wrap; gap: 8px 18px; }
+  .masthead-note { text-align: left; max-width: 100%; }
+}
+
 /* --- Hero --- */
 .hero {
   background: radial-gradient(1200px 500px at 15% -10%, #123e39 0%, var(--navy) 55%);
